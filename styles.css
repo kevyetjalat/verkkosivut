@@ -53,11 +53,23 @@ header {
 }
 
 .row {
-  position: fixed;
-  text-align: center;
-  padding-top: 5%;
+  position: relative;
+  text-align: left;
+  padding-top: 3%;
+  padding-left: 10%;
+  margin: auto;
 }
 
 .container {
-  padding: 5%;
+  padding: 3%;
+}
+.col-sm-4 {
+  border-radius: 25px;
+ padding: 20px;
+  background-color: #292929;
+  color: #f15354;
+}
+
+.col-sm-8 {
+  padding-left: 200px;
 }
