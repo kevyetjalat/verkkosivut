@@ -1,8 +1,10 @@
 body {
-  background-color: #383838   ;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   color: white;
 }
-
 .topnav {
   background-color: #292929;
   overflow: hidden;
@@ -31,9 +33,12 @@ body {
 
 header {
   text-align: center;
-  padding: 1%;
-  font-size: 70px;
-  color: #f15354;
+  padding: 3%;
+  font-size: 90px;
+  color: black;
+  -webkit-text-fill-color: #f15354; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .footer {
@@ -65,11 +70,11 @@ header {
 }
 .col-sm-4 {
   border-radius: 25px;
- padding: 20px;
+ padding: px;
   background-color: #292929;
   color: #f15354;
 }
 
 .col-sm-8 {
-  padding-left: 200px;
+  padding-left: 300px;
 }
