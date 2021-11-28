@@ -1,3 +1,5 @@
+/* BODY JA SKROLLATTAVA BG */
+
 body {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
@@ -5,9 +7,16 @@ body {
   background-size: cover;
   color: white;
 }
+/* NAVIKKO PASKAA */
+
 .topnav {
   background-color: #292929;
   overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999999 !important;
 }
 
 .topnav a {
@@ -22,29 +31,33 @@ body {
 .topnav a:hover {
   background-color: #cecece;
   color: black;
-  transition: 0.2s;
+  transition: 0.3s;
+  border-radius: 1px;
 }
 
 .topnav a.active {
   background-color: #f15354;
   color: #101010;
   font-weight: 450;
+  border-radius: 1px;
 }
+
+/* HEADER */
 
 header {
   text-align: center;
-  padding: 3%;
+  padding-top: 6%;
+  padding-bottom: 2%;
   font-size: 90px;
   color: black;
-  -webkit-text-fill-color: #f15354; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: #f15354;
   -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: black;
 }
 
+/* FOOTER */
+
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
@@ -57,9 +70,11 @@ header {
   color: #f15354;
 }
 
+/* KAKS EKAA PASKAA */
+
 .row {
   position: relative;
-  text-align: left;
+  text-align: center;
   padding-top: 3%;
   padding-left: 10%;
   margin: auto;
@@ -68,13 +83,32 @@ header {
 .container {
   padding: 3%;
 }
+
 .col-sm-4 {
   border-radius: 25px;
- padding: px;
-  background-color: #292929;
-  color: #f15354;
+  padding-top: 50px;
+  background-color: rgba(25, 25, 25, 0.92);
+  color: white;
+  width: 310px;
+  height: 420px;
 }
 
 .col-sm-8 {
-  padding-left: 300px;
+  padding-left: 150px;
+}
+
+.wojtek1 {
+  border-radius: 25px;
+}
+
+/* TOKAT PASKAT */
+
+.wojtek2 {
+  border-radius: 25px;
+}
+
+.col-sm-2 {
+  padding-right: 543px;
+  margin-left: -13px;
+  padding-bottom: 15%;
 }
