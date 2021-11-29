@@ -74,12 +74,12 @@ header {
   background-color: rgba(25, 25, 25, 0.90);
   color: white;
   width: 420px;
-  height: 250px;
+  height: 300px;
   padding-bottom: 5%;
 }
 
 .paskaa2 {
-  padding-left: 600px;
+  padding-left: 800px;
   padding-top: 5%;
 }
 
@@ -94,15 +94,30 @@ header {
 }
 
 .paskaa3 {
-  padding-top: 15%;
-  padding-left: 10%;
-  padding-bottom: 15%;
+  padding-top: 5%;
+  padding-left: 250px;
+  padding-bottom: 5%;
 }
 
 /* STATUES */
 
 .statue1 {
   border-radius: 25px;
+}
+
+.statues {
+  padding-bottom: 10%;
+  padding-left: 400px;
+}
+
+.teksti {
+  padding-left: 10px;
+  padding-top: 7px;
+  font-size: 32px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 1.3px 1.3px black;
 }
 /* FOOTER */
 
