@@ -64,7 +64,7 @@ header {
   background-color: rgba(25, 25, 25, 0.90);
   color: white;
   width: 420px;
-  height: 250px;
+  height: 280px;
   padding-bottom: 5%;
 }
 
@@ -76,6 +76,11 @@ header {
   width: 420px;
   height: 300px;
   padding-bottom: 5%;
+  font-size: 17px;
+}
+
+.paskaa1 {
+  font-size: 17px;
 }
 
 .paskaa2 {
@@ -89,8 +94,9 @@ header {
   background-color: rgba(25, 25, 25, 0.90);
   color: white;
   width: 420px;
-  height: 250px;
+  height: 300px;
   padding-bottom: 5%;
+  font-size: 17px;
 }
 
 .paskaa3 {

@@ -61,6 +61,7 @@ header {
 .col-sm-4 {
   border-radius: 25px;
   padding-top: 50px;
+  padding-bottom: 280px;
   background-color: rgba(25, 25, 25, 0.90);
   color: white;
   width: 600px;
@@ -77,15 +78,21 @@ header {
   padding-bottom: 600px;
 }
 
+.eka {
+  font-size: 17px;
+}
+
 .toinen {
   padding-top: 150px;
   padding-left: 800px;
   width: 1200px;
+  font-size: 20px;
 }
 
 .kolmas {
   padding-top: 150px;
   padding-bottom: 150px;
+  font-size: 20px;
 }
 /* FOOTER */
 
