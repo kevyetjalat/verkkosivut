@@ -127,3 +127,26 @@ header {
 .footer p {
   color: #f15354;
 }
+
+/* TOP */
+
+#top {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  background-color: transparent;
+  color: #101010;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 450;
+
+}
+
+#top:hover {
+  background-color: rgba(25, 25, 25, 0.90);
+  transition: 0.1s;
+  border-radius: 50px;
+}

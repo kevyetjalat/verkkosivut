@@ -57,6 +57,30 @@
 </div>
 </div>
 
+<!-- BACK TO TOP -->
+
+<button onclick="topFunction()" id="top" title="Back to top"> <img src="arrow.png" class="arrow" alt="arrow" width="65" height="65"> </button>
+
+<script>
+var mybutton = document.getElementById("top");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 <!-- FOOTER -->
 
 <div class="footer">
